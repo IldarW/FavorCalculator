@@ -15,17 +15,17 @@ First thing you need to do is to choose a convenient key and bind the command "f
 
 Now select any number of items in inventory, hover the mouse over the inventory and press the binded key. 
 The mod will show you the favor you will get for that items.  
-To set the item constant value type the following:  
->_favor setfactor value(float number)_  
+To use non default item constant value type the following:  
+>_favor value(float number)_  
 
 **Notes**:  
 * There is a certain constant for each item in the game that directly affects the amount of favor you will get for sacrificing it. 
 For example the cordage rope have the constant value equal to the 1 and the door lock have the value 0.5. 
 So door locks will give you twice less favor than cordage ropes of same quality. 
 * By default mod calculates the favor, assuming that the value constant is 1
-* You can configure that value this way  
->_favor setfactor 0.5_  
+* You can use different value this way  
+>_favor 0.5_  
 
-and next favor estimates will be divided by 2
+and the favor estimate will be divided by 2
 * The spindles have the value equal to the 0.5, but Vynorians have double favor for wood items so you don't need to change the default value in this situation
 * You can calculate favor not only in your inventory but in other containers too
